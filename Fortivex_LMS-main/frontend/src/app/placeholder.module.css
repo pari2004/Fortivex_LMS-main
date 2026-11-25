@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 3rem 4rem;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.placeholder {
+  color: var(--color-muted);
+  font-size: 1rem;
+}

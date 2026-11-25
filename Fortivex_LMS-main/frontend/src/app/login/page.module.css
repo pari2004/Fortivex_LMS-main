@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 360px;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
